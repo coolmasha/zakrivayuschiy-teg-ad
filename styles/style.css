@@ -431,7 +431,7 @@ dialog::backdrop {
   padding: 9px 17px;
 }
 
-@media (width <= 375px) {
+@media (width <= 500px) {
   .save {
     flex-direction: column;
   }
