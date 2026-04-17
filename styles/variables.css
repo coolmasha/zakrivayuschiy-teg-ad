@@ -1,1 +1,62 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+
+:root {
+    --variable-font-main: 'Inter-Variable';
+    --variable-font-accent: 'PressStart2P';
+    --system-font: sans-serif;
+    
+
+    --text-color: #000;
+    --background-color: #fff;
+    --accent-color: #000;
+    --accent-color-text: #fff;
+    --heart-body-color: #f00;
+    --heart-contour-color: #000;
+    --outline: 2px solid #000;
+
+
+    --background-image: repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgb(211 211 211 / 0) 2px 4px), repeating-linear-gradient(to right, #d3d3d3 0 2px, rgb(211 211 211 / 0) 2px 4px),
+    linear-gradient(to bottom, #e7e7e7, #e7e7e7 0.01%, #1a1a1a 100%);
+
+    
+    --font-size-content: 18px;
+    --font-weight-content: 400;
+    --font-weight-title: 700;
+    
+
+    --padding-header: 100px;
+    --padding-text: 25px;
+    --margin-horizontal: 370px;
+    --margin-block-end: 27px;
+    --margin-start-button: 50px;
+    --margin-end-button: 100px;
+    --margin-section-button: 25px;
+    --padding-block-button-save: 15px;
+    --padding-inline-button-save: 20px;
+    --padding-dialog-dek: 30px;
+    --padding-dialog-mob: 42px;
+
+    
+    --gap-card: 50px;
+    --gap-section-button: 8px;
+    --gap-dialog: 30px;
+    --gap-section-dialog: 12px;
+    --gap-button-save: 8px;
+
+
+    --line-height-text: 1.167;
+    --line-height-text-button: 0.9;
+    --line-height-dialog: 1.5;
+
+    --card-button-block: 38px;
+    --card-button-inline: 130px;
+    --dialog-button-size-dek: 293px;
+    --dialog-button-size-mob: 257px;
+
+    --floppy-size-dek: 21px;
+    --floppy-size-mob: 28px;
+
+
+    --box-shadow-focus: 2px 2px 0px 0px #000;
+}
