@@ -58,7 +58,7 @@
 
 .header {
   max-inline-size: 700px;
-  inline-size: 100%; 
+  inline-size: 100%;
   padding-block: var(--padding-header);
 }
 
@@ -90,7 +90,7 @@
 
 .content {
   max-inline-size: 700px;
-  inline-size: 100%; 
+  inline-size: 100%;
 }
 
 .card__list {
@@ -262,16 +262,6 @@ svg.like-icon {
 .like-icon .main-body {
   fill: transparent;
   transition: fill 0.3s linear;
-}
-
-.like-icon:hover .core {
-  fill: var(--heart-contour-color);
-  transition: fill 0.3s linear;
-}
-
-.like-icon:hover .main-body {
-  fill: var(--heart-contour-color);
-  transition: fill 0.3s 0.05s linear;
 }
 
 .like-icon:hover .core {
